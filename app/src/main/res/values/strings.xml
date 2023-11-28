@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TA-Android</string>
+    <string name="email_dont_match">Password Invalit</string>
+    <string name="password_dont_match">Email Invalit</string>
 </resources>
