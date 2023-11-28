@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/idHome"
+        android:title="HOME"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/baseline_home_24"/>
+    <item
+        android:id="@+id/idEvent"
+        android:title="DASHBOARS"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/baseline_view_day_24"/>
+    <item
+        android:id="@+id/idSertiv"
+        android:title="SERTIF"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/baseline_insert_page_break_24"/>
+</menu>
