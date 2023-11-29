@@ -1,4 +1,4 @@
-package com.example.ta_android.preferences
+package com.example.ta_android.data
 
 import com.google.gson.annotations.SerializedName
 

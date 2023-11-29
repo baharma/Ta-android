@@ -12,18 +12,10 @@ class ViewModelFactory(private val pref: UserPreference, private val context: Co
         if (modelClass.isAssignableFrom(AuthLoginViewModel::class.java)) {
             return AuthLoginViewModel(pref) as T
         }
-//        if (modelClass.isAssignableFrom(MainViewModel::class.java)) {
-//            return MainViewModel(pref,Injection.provideRepository(context)) as T
-//        }
-//        if (modelClass.isAssignableFrom(ViewModelAddstory::class.java)) {
-//            return ViewModelAddstory(pref) as T
-//        }
-//        if (modelClass.isAssignableFrom(ViewModelLogout::class.java)) {
-//            return ViewModelLogout(pref) as T
-//        }
-//        if(modelClass.isAssignableFrom(ViewModelMaps::class.java)){
-//            return ViewModelMaps(pref) as T
-//        }
+        if (modelClass.isAssignableFrom(EventListViewModel::class.java)) {
+            return EventListViewModel(pref) as T
+        }
+
         throw IllegalArgumentException("Unknown ViewModel class: " + modelClass.name)
     }
 }

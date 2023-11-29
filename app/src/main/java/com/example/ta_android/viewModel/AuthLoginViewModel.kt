@@ -6,10 +6,10 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.ta_android.api.ApiClient
-import com.example.ta_android.preferences.ErrorResponse
+import com.example.ta_android.data.ErrorResponse
 import com.example.ta_android.preferences.Invoice
 import com.example.ta_android.preferences.UserPreference
-import com.example.ta_android.preferences.UserResponse
+import com.example.ta_android.data.UserResponse
 import com.google.gson.Gson
 import kotlinx.coroutines.launch
 import retrofit2.Call
